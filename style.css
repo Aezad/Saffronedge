@@ -1,7 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: mark-pro;
+    src: url("fonts/Mark-Pro-Medium.ttf");
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "poppins";
     
 }
 
@@ -19,6 +28,7 @@
     line-height: 45px;
     text-align: center;
     margin-top: 10px;
+    font-family: mark-pro;
 }
 
 .read-btn{
@@ -112,6 +122,7 @@ nav .get-btn{
     line-height: 60px;
     font-size: 50px;
     font-weight: 700;
+    font-family: mark-pro;
 }
 
 .service-wraper .service-sec .topics{
@@ -138,7 +149,7 @@ nav .get-btn{
 /* Form Section */
 
 .form-sec-wraper .form-sec h3{
-    font-style: mark pro;
+    font-family: mark-pro;
     font-size: 24px;
     font-weight: 700;
 }
@@ -168,6 +179,12 @@ nav .get-btn{
 .form-sec-wraper .form-sec .form .additional{
     height: 170px;
     margin-top: 20px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 13px;
+    padding-left: 10px;
+    border: 1px solid #d1d1d1;
     
 }
 
