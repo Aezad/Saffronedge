@@ -6,6 +6,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"/>
+    
+
 </head>
 <body>
     <header>
@@ -22,10 +27,10 @@
                     <div class="topics">
                         <p>We can give your business exactly what it needs with our full-service enterprise SEO strategies, customized growth marketing solutions, and team-building support.</p>
                         <div class="task"><img src="task_alt.png" alt=""><p><b>Broad Industry Expertise:</b> Growth strategies for mid-sized businesses and global enterprises.</p></div>
-                        <div class="task"><img src="task_alt.png" alt="">                        <p><b>Custom SEO Strategies: </b>Tailored approaches aligned with your complex goals and target markets.</p></div>
-                        <div class="task"><img src="task_alt.png" alt="">                        <p><b>Content Gap Analysis:</b> Bridging content gaps to align with goals, supported by an enterprise SEO audit.</p></div>
-                        <div class="task"><img src="task_alt.png" alt="">                        <p><b>Data Analysis:</b> Data-driven insights to optimize your SEO funnel, enhancing enterprise SEO solutions.</p></div>
-                        <div class="task"><img src="task_alt.png" alt="">                        <p><b>Buy-in from Management:</b> Get leadership support to drive and sustain SEO success in your enterprise SEO company.</p></div>
+                        <div class="task"><img src="task_alt.png" alt=""><p><b>Custom SEO Strategies: </b>Tailored approaches aligned with your complex goals and target markets.</p></div>
+                        <div class="task"><img src="task_alt.png" alt=""><p><b>Content Gap Analysis:</b> Bridging content gaps to align with goals, supported by an enterprise SEO audit.</p></div>
+                        <div class="task"><img src="task_alt.png" alt=""><p><b>Data Analysis:</b> Data-driven insights to optimize your SEO funnel, enhancing enterprise SEO solutions.</p></div>
+                        <div class="task"><img src="task_alt.png" alt=""><p><b>Buy-in from Management:</b> Get leadership support to drive and sustain SEO success in your enterprise SEO company.</p></div>
                     </div>
                 </div>
                 <form class="form-sec-wraper">
@@ -145,7 +150,7 @@
                     <div class="brand-heading h2">
                         Truseted Marketing Partner  For Top Brands
                     </div>
-                    <div class="brands-images-container">
+                    <div class="brands-images-container autoplay">
                         <div class="brands-images"><img src="Brands-logo/1574024928787767.png" alt=""></div>
                         <div class="brands-images"><img src="Brands-logo/twixor_hd_logo 2.png" alt=""></div>
                         <div class="brands-images"><img src="Brands-logo/JOP 4.png" alt=""></div>
@@ -294,6 +299,34 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>    
+ 
+
+    <script>
+        $('.autoplay').slick({
+        dots:true,    
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        autoplay: true,
+        autoplaySpeed: 2000,
+
+        responsive:[
+          { 
+            breakpoint:480,
+            settings:{
+            slidesToShow:1,
+            slidesToScroll:1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            }
+          }
+        ]
+});
+    </script>
 
 </body>
 </html>
